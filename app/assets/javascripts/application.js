@@ -49,4 +49,6 @@ $(document).on("ready", function(){
 
   previousImage(leftArrow);
   nextImage(rightArrow);
+
+
 });

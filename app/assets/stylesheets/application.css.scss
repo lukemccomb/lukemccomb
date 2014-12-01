@@ -45,62 +45,95 @@ nav {
   width: 8%;
   ul {
     list-style: none;
-    color: white;
-    font-weight: 100;
-    font-size: 100%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.30);
     li {
+      color: rgba(255, 255, 255, 0.75);
+      width: auto;
+      font-weight: 100;
+      font-size: 100%;
+      text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.30);
       line-height: 140%;
       border-radius: 5px;
       &:hover {
-        color: rgba(0, 187, 255, 0.9);
+        color: rgba(255, 255, 255, 1);
         text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.30);
       }
       cursor: pointer;
     }
   }
   #logo {
-    width: 50%;
-    margin-left: -2.5%;
+    width: 60%;
+    margin-left: -4.5%;
   }
 }
 
 footer {
-  position: fixed;
-  bottom: 5%;
-  left: 3.5%;
-  width: 10%;
-  #left-arrow, #right-arrow {
-    color: white;
-    font-size: 200%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-    &:hover {
-      color: #00BBFF;
-    }
-  }
-  #info-icon {
-    margin: 0 2%;
-    color: white;
-    font-size: 200%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-    &:hover {
-      color: #00BBFF;
-    }
-  }
-}
+  position: relative;
 
-#twitter {
-  margin: 0 2%;
-  color: white;
-  font-size: 200%;
-  text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-  cursor: pointer;
-  position: fixed;
-  bottom: 5%;
-  right: 3.5%;
-  &:hover {
-    color: #00BBFF;
+  #info-icon {
+    position: fixed;
+    bottom: 6.2%;
+    left: 4.48%;
+    width: 10%;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 110%;
+    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
+    cursor: pointer;
+//    &:hover {
+//      color: #00BBFF;
+//    }
+  }
+
+  #camera-icon {
+    position: fixed;
+    bottom: 5%;
+    left: 3.5%;
+    width: 10%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 250%;
+    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
+    cursor: pointer;
+    z-index: -1;
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  #left-arrow {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 400%;
+    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
+    cursor: pointer;
+    position: fixed;
+    top: 45%;
+    left: 2.5%;
+    &:hover {
+      color: #00BBFF;
+    }
+  }
+
+  #right-arrow {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 400%;
+    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
+    cursor: pointer;
+    position: fixed;
+    top: 45%;
+    right: 2.5%;
+    &:hover {
+      color: #00BBFF;
+    }
+  }
+
+  #twitter {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 200%;
+    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 3.5%;
+    &:hover {
+      color: #00BBFF;
+    }
   }
 }
