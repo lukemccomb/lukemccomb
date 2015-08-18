@@ -135,7 +135,7 @@ body {
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 601px) and (max-width: 1440px) {
   .left-panel {
     padding: 2em;
     float: left;
@@ -165,7 +165,93 @@ body {
   .right-panel {
     float: left;
     margin-bottom: 2em;
-    padding: 2em 7% 2em 35%;
+    padding: 2em 2em 2em 35%;
+    width: 45%;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    margin: .75em 0 .5em 0;
+  }
+
+  p, h3, ul {
+    margin-bottom: .5em;
+  }
+
+  img {
+    opacity: .4;
+    position: fixed;
+    bottom: 2em;
+    left: 18%;
+    width: 10%;
+  }
+
+  .mondo {
+    font-weight: bold;
+    color: rgb(210, 0, 17);
+  }
+
+  .ol {
+    font-weight: bold;
+    color: forestgreen;
+  }
+
+  .position {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .loc-date {
+    font-size: .8em;
+  }
+
+  ul {
+    margin: 0 0 1em 1.75em;
+  }
+
+  li {
+    list-style-type: circle;
+    font-size: .9em;
+    margin-top: .15em;
+  }
+
+  .gschool {
+    color: rgb(255, 114, 0);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1441px) {
+  .left-panel {
+    padding: 2em;
+    float: left;
+    height: 100vh;
+    position: fixed;
+    text-align: right;
+    width: 25%;
+  }
+
+  .links {
+    margin-top: 3em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  a {
+    color: rgb(53, 35, 185);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .right-panel {
+    float: left;
+    margin-bottom: 2em;
+    padding: 2em 2em 2em 45%;
     width: 45%;
   }
 
