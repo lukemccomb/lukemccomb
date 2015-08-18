@@ -32,108 +32,76 @@ time, mark, audio, video {
 }
 
 body {
-  width: 100%;
+  background-color: white;
+  color: black;
   font-family: Helvetica, sans-serif;
   position: relative;
+  width: 100%;
 }
 
-
-nav {
-  position: fixed;
-  top: 5%;
-  left: 3%;
-  width: 8%;
-  ul {
-    list-style: none;
-    li {
-      color: rgba(255, 255, 255, 0.75);
-      width: auto;
-      font-weight: 100;
-      font-size: 100%;
-      text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.30);
-      line-height: 140%;
-      border-radius: 5px;
-      &:hover {
-        color: rgba(255, 255, 255, 1);
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.30);
-      }
-      cursor: pointer;
-    }
-  }
-  #logo {
-    width: 60%;
-    margin-left: -4.5%;
-  }
-}
-
-footer {
+.wrapper {
+  display: inline-block;
   position: relative;
+}
 
-  #info-icon {
-    position: fixed;
-    bottom: 6.2%;
-    left: 4.48%;
-    width: 10%;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 110%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-//    &:hover {
-//      color: #00BBFF;
-//    }
-  }
+.left-panel {
+  padding: 2em;
+  float: left;
+  height: 100vh;
+  position: fixed;
+  width: 25%;
+}
 
-  #camera-icon {
-    position: fixed;
-    bottom: 5%;
-    left: 3.5%;
-    width: 10%;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 250%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-    z-index: -1;
-    &:hover {
-      color: rgba(255, 255, 255, 1);
-    }
-  }
+h1 {
+  font-size: 2em;
+}
 
-  #left-arrow {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 400%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-    position: fixed;
-    top: 45%;
-    left: 2.5%;
-    &:hover {
-      color: #00BBFF;
-    }
-  }
+a {
+  color: blue;
+}
 
-  #right-arrow {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 400%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-    position: fixed;
-    top: 45%;
-    right: 2.5%;
-    &:hover {
-      color: #00BBFF;
-    }
-  }
+.right-panel {
+  float: right;
+  height: 100vh;
+  padding: 2em;
+  width: 60%;
+}
 
-  #twitter {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 200%;
-    text-shadow: 2px 2px 2px rgba(0, 187, 255, 0.3);
-    cursor: pointer;
-    position: fixed;
-    bottom: 5%;
-    right: 3.5%;
-    &:hover {
-      color: #00BBFF;
-    }
-  }
+h2 {
+  font-size: 1.5em;
+  margin: .75em 0 .5em 0;
+}
+
+p, h3, ul {
+  margin-bottom: .5em;
+}
+
+img {
+  opacity: .4;
+  position: fixed;
+  bottom: 2em;
+  left: 2em;
+  width: 10%;
+}
+
+.company {
+  font-weight: bold;
+  color: rgb(210, 0, 17);
+}
+
+.position {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.loc-date {
+  font-size: .8em;
+}
+
+ul {
+  margin-left: 1.75em;
+}
+
+li {
+  list-style-type: circle;
 }
