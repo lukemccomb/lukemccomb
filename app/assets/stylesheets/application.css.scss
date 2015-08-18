@@ -52,23 +52,32 @@ body {
   width: 25%;
 }
 
+.links {
+  margin-top: 3em;
+}
+
 h1 {
   font-size: 2em;
 }
 
 a {
-  color: blue;
+  color: rgb(53, 35, 185);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .right-panel {
   float: right;
-  height: 100vh;
+  margin-bottom: 2em;
   padding: 2em;
   width: 60%;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin: .75em 0 .5em 0;
 }
 
@@ -84,9 +93,14 @@ img {
   width: 10%;
 }
 
-.company {
+.mondo {
   font-weight: bold;
   color: rgb(210, 0, 17);
+}
+
+.ol {
+  font-weight: bold;
+  color: forestgreen;
 }
 
 .position {
@@ -99,9 +113,16 @@ img {
 }
 
 ul {
-  margin-left: 1.75em;
+  margin: 0 0 1em 1.75em;
 }
 
 li {
   list-style-type: circle;
+  font-size: .9em;
+  margin-top: .15em;
+}
+
+.gschool {
+  color: rgb(255, 114, 0);
+  font-weight: bold;
 }
