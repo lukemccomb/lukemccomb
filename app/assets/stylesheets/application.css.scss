@@ -36,7 +36,8 @@ time, mark, audio, video {
 }
 
 body {
-  background: linear-gradient(-168deg, $backgroundColor, rgb(169, 7, 245));
+  background: linear-gradient(-168deg, rgba(0, 90, 242, .5), rgba(169, 7, 245, .5)), url("tetons.jpg") no-repeat fixed center;
+  // background-image: url("tetons.jpg");
   color: $textColor;
   font-family: Helvetica, sans-serif;
   position: relative;
