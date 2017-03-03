@@ -16,3 +16,7 @@ $textColorLight: rgba(255, 170, 226, .75);
 .bg_color-dark {
   background-color: $backgroundColor;
 }
+
+.bg_gradient-dark-light {
+  background-color: linear-gradient($backgroundColor, rgb(121, 255, 251));
+}

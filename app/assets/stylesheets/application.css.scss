@@ -36,11 +36,12 @@ time, mark, audio, video {
 }
 
 body {
-  background-color: $backgroundColor;
+  background: linear-gradient(-168deg, $backgroundColor, rgb(169, 7, 245));
   color: $textColor;
   font-family: Helvetica, sans-serif;
   position: relative;
   width: 100%;
+  min-height: 100vh;
 }
 
 @media (max-width: 600px) {
