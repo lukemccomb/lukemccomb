@@ -1,0 +1,18 @@
+$backgroundColor: rgb(20, 0, 182);
+$textColor: rgb(255, 170, 226);
+$textColorLight: rgba(255, 170, 226, .75);
+
+.text_color-light:link, .text_color-light:visited {
+  text-decoration: none;
+  color: $textColor;
+}
+
+.text_color-light:hover, .text_color-light:active {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: -4px 4px $textColorLight;
+}
+
+.bg_color-dark {
+  background-color: $backgroundColor;
+}

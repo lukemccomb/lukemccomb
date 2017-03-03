@@ -1,17 +1,53 @@
-<h1>Luke McComb</h1>
-
-<%= link_to("Resumé", "/resume" , :options => {:target => '_blank'}) %>
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-4">
-      col 1
+<div class="header-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Luke McComb</h1>
+      </div>
     </div>
-    <div class="col-xs-4">
-      col 2
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <a class="text_color-light" role="button" data-toggle="collapse" href="#about" aria-expanded="false" aria-controls="about">
+          <h2 class="text-center">About</h2>
+        </a>
+      </div>
+      <div class="col-xs-4">
+        <a class="text_color-light" role="button" data-toggle="collapse" href="#webdev" aria-expanded="false" aria-controls="webdev">
+          <h2 class="text-center">Web Development</h2>
+        </a>
+      </div>
+      <div class="col-xs-4">
+        <a class="text_color-light" role="button" data-toggle="collapse" href="#photo" aria-expanded="false" aria-controls="photo">
+          <h2 class="text-center">Photography</h2>
+        </a>
+      </div>
     </div>
-    <div class="col-xs-4">
-      col 3
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="collapse" id="about">
+          <div class="bg_color-dark text-center">
+            My name is Luke McComb and I like stuff.
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="collapse" id="webdev">
+          <div class="bg_color-dark text-center">
+            I'm a Web Developer. I currently work for IBM.
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="collapse" id="photo">
+          <div class="bg_color-dark text-center">
+            Photography is one of my passions.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

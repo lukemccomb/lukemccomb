@@ -6,6 +6,9 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "bootstrap";
+@import "text";
+@import "theme";
+@import "layout";
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -33,16 +36,11 @@ time, mark, audio, video {
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: $backgroundColor;
+  color: $textColor;
   font-family: Helvetica, sans-serif;
   position: relative;
   width: 100%;
-}
-
-.wrapper {
-  display: inline-block;
-  position: relative;
 }
 
 @media (max-width: 600px) {
