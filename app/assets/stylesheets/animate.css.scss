@@ -1,0 +1,30 @@
+svg {
+  #LOGO_4_ {
+    stroke: #FFFFFF;
+    stroke-width: 1;
+    stroke-dasharray: 992px;
+    stroke-dashoffset: 992px;
+    animation-name: draw;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 1; // Run only once
+    animation-timing-function: linear;
+  }
+  #square {
+    stroke: #FFFFFF;
+    stroke-width: 1;
+    stroke-dasharray: 72px;
+    stroke-dashoffset: 72px;
+    animation-name: draw;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 1; // Run only once
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
