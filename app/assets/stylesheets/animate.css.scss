@@ -2,10 +2,10 @@ svg {
   #LOGO_4_ {
     stroke: #FFFFFF;
     stroke-width: 1;
-    stroke-dasharray: 992px;
-    stroke-dashoffset: 992px;
+    stroke-dasharray: 995px;
+    stroke-dashoffset: 995px;
     animation-name: draw;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards; // Stay on the last frame
     animation-iteration-count: 1; // Run only once
     animation-timing-function: linear;
@@ -13,10 +13,10 @@ svg {
   #square {
     stroke: #FFFFFF;
     stroke-width: 1;
-    stroke-dasharray: 72px;
-    stroke-dashoffset: 72px;
+    stroke-dasharray: 75px;
+    stroke-dashoffset: 73px;
     animation-name: draw;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards; // Stay on the last frame
     animation-iteration-count: 1; // Run only once
     animation-timing-function: linear;

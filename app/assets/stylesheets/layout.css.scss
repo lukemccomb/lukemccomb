@@ -1,11 +1,12 @@
 .wrapper {
   min-height: 100%;
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .header-wrap {
+  margin-top: 50px;
   min-height: 100%;
   min-height: 20vh;
   display: flex;
