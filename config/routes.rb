@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
-  root 'main#index'
+  root to: 'main#index'
 
-  get '/resume' => 'resume#index'
+  resource :main, only: [:index]
+
+  get "photo" => "photos#index"
 
 end
